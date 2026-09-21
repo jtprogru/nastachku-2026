@@ -54,3 +54,28 @@ src: ./pages/00/promise.md
 ---
 src: ./pages/00/contour.md
 ---
+
+---
+# ── 01 · Арифметика MTTR ──
+src: ./pages/01/section.md
+---
+
+---
+src: ./pages/01/scene.md
+---
+
+---
+src: ./pages/01/mttr.md
+---
+
+---
+src: ./pages/01/thesis.md
+---
+
+---
+src: ./pages/01/replit.md
+---
+
+---
+src: ./pages/01/research.md
+---
