@@ -105,3 +105,36 @@ src: ./pages/02/context-layer.md
 ---
 src: ./pages/02/contract.md
 ---
+
+---
+# ── 03 · Права ──
+src: ./pages/03/section.md
+---
+
+---
+src: ./pages/03/thesis.md
+---
+
+---
+src: ./pages/03/gates.md
+---
+
+---
+src: ./pages/03/gate-1.md
+---
+
+---
+src: ./pages/03/gate-2-3.md
+---
+
+---
+src: ./pages/03/gate-4.md
+---
+
+---
+src: ./pages/03/gate-5.md
+---
+
+---
+src: ./pages/03/rbac.md
+---
