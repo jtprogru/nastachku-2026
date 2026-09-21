@@ -155,3 +155,28 @@ src: ./pages/04/chain.md
 ---
 src: ./pages/04/human.md
 ---
+
+---
+# ── 05 · Где ломается ──
+src: ./pages/05/section.md
+---
+
+---
+src: ./pages/05/counter.md
+---
+
+---
+src: ./pages/05/fail-new.md
+---
+
+---
+src: ./pages/05/fail-correlation.md
+---
+
+---
+src: ./pages/05/fail-complacency.md
+---
+
+---
+src: ./pages/05/long-incidents.md
+---
