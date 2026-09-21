@@ -214,6 +214,10 @@ src: ./pages/07/materials.md
 ---
 
 ---
+src: ./pages/07/qr.md
+---
+
+---
 src: ./pages/07/questions.md
 ---
 
