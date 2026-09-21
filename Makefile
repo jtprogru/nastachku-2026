@@ -18,9 +18,13 @@ dev: node_modules ## Run the Slidev dev server
 build: node_modules ## Build the static site into dist/
 	npm run build
 
+# THEME=dark exports the dark variant into its own file, so light and dark
+# PDFs don't overwrite each other. Anything else keeps the default light one.
+THEME ?= light
+
 .PHONY: export
-export: node_modules ## Export the slides to PDF
-	npm run export
+export: node_modules ## Export the slides to PDF (THEME=dark for dark mode)
+	npm run export -- $(if $(filter dark,$(THEME)),--dark --output slides-export-dark.pdf)
 
 .PHONY: clean
 clean: ## Remove node_modules and build artifacts

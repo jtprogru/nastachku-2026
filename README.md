@@ -73,6 +73,12 @@ make build
 make export
 ```
 
+Тёмная тема собирается в отдельный `slides-export-dark.pdf`, светлый PDF при этом не перезаписывается:
+
+```shell
+make export THEME=dark
+```
+
 ## Деплой
 
 Workflow `.github/workflows/build.yaml` на каждый push в `main` собирает дек с `--base /nastachku-2026/` и выкладывает на GitHub Pages. Его же можно запустить руками через `workflow_dispatch`. Зависимости npm и версии actions обновляет Dependabot раз в неделю.
