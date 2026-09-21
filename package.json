@@ -1,0 +1,23 @@
+{
+  "name": "nastachku-2026",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.0",
+    "slidev-theme-bear": "github:jtprogru/slidev-theme-bear#v0.3.0",
+    "vue": "^3.5.41"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.62.1"
+  },
+  "overrides": {
+    "dompurify": "^3.4.13",
+    "@hono/node-server": "^2.1.0",
+    "image-size": "^2.0.4"
+  }
+}
