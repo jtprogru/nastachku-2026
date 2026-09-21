@@ -79,3 +79,29 @@ src: ./pages/01/replit.md
 ---
 src: ./pages/01/research.md
 ---
+
+---
+# ── 02 · Что это такое ──
+src: ./pages/02/section.md
+---
+
+---
+src: ./pages/02/mcp60.md
+---
+
+---
+src: ./pages/02/harness.md
+---
+
+---
+src: ./pages/02/arch.md
+---
+
+---
+# drill-down по клику на «База раннбуков» со схемы
+src: ./pages/02/context-layer.md
+---
+
+---
+src: ./pages/02/contract.md
+---
