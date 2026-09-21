@@ -180,3 +180,26 @@ src: ./pages/05/fail-complacency.md
 ---
 src: ./pages/05/long-incidents.md
 ---
+
+---
+# ── 06 · Цифры и старт ──
+src: ./pages/06/section.md
+---
+
+---
+src: ./pages/06/metric.md
+---
+
+---
+# опциональный: режется первым, если не укладываюсь по времени
+src: ./pages/06/audit-start.md
+hide: false
+---
+
+---
+src: ./pages/06/anti-pitch.md
+---
+
+---
+src: ./pages/06/pilot.md
+---
