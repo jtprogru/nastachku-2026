@@ -138,3 +138,20 @@ src: ./pages/03/gate-5.md
 ---
 src: ./pages/03/rbac.md
 ---
+
+---
+# ── 04 · Разбор ──
+src: ./pages/04/section.md
+---
+
+---
+src: ./pages/04/proof.md
+---
+
+---
+src: ./pages/04/chain.md
+---
+
+---
+src: ./pages/04/human.md
+---
