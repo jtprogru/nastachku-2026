@@ -203,3 +203,27 @@ src: ./pages/06/anti-pitch.md
 ---
 src: ./pages/06/pilot.md
 ---
+
+---
+# ── 07 · финал ──
+src: ./pages/07/takeaways.md
+---
+
+---
+src: ./pages/07/materials.md
+---
+
+---
+src: ./pages/07/questions.md
+---
+
+---
+# ── бэкапы: скрыты из показа и экспорта, чтобы вернуть — убрать hide ──
+src: ./pages/backup/stack.md
+hide: true
+---
+
+---
+src: ./pages/backup/cost.md
+hide: true
+---
