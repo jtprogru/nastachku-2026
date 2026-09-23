@@ -24,5 +24,7 @@ routeAlias: backup-stack
 </style>
 
 <!--
-Бэкап-слайд. Открывается по кнопке со слайда «Вопросы».
+Бэкап, скрыт из показа и экспорта через `hide: true` в slides.md. Если вернуть, встанет после «Вопросов»: стрелкой вперёд туда, ссылкой внизу обратно.
+
+Пока скрыт, отвечать голосом. На вопрос про стек: два кластера Kubernetes, KubeVirt под VM клиентов, CNPG под managed PostgreSQL. Хранилка — Ceph и LINSTOR/DRBD под диски виртуалок, сеть — kube-ovn. Телеметрия — VictoriaMetrics, Grafana и VictoriaTraces. sre-mcp на Python и FastMCP за Caddy с mTLS и JWT, бридж на Go для Claude Code и Codex CLI.
 -->
