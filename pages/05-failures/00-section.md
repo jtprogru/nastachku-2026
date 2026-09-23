@@ -1,0 +1,15 @@
+---
+routeAlias: failures-section
+layout: section
+mascot: true
+---
+
+<SectionNum>05</SectionNum>
+
+# Где ломается
+
+Контрпример и три режима отказа, которые я видел сам
+
+<!--
+Семь минут. Вторая по важности часть после прав.
+-->

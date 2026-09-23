@@ -1,6 +1,7 @@
 ---
 theme: bear
 layout: cover
+routeAlias: cover
 title: 'SRE MCP'
 info: |
   ## SRE MCP: как пустить ИИ в инцидент и не отдать ему прод
@@ -42,194 +43,194 @@ mdc: true
 
 ---
 # ── 00 · вступление ──
-src: ./pages/00/speaker.md
+src: ./pages/00-intro/01-speaker.md
 ---
 
 ---
-src: ./pages/00/about.md
+src: ./pages/00-intro/02-disclaimer.md
 ---
 
 ---
-src: ./pages/00/promise.md
+src: ./pages/00-intro/03-promise.md
 ---
 
 ---
-src: ./pages/00/contour.md
+src: ./pages/00-intro/04-contour.md
 ---
 
 ---
 # ── 01 · Арифметика MTTR ──
-src: ./pages/01/section.md
+src: ./pages/01-mttr/00-section.md
 ---
 
 ---
-src: ./pages/01/scene.md
+src: ./pages/01-mttr/01-scene.md
 ---
 
 ---
-src: ./pages/01/mttr.md
+src: ./pages/01-mttr/02-mttr.md
 ---
 
 ---
-src: ./pages/01/thesis.md
+src: ./pages/01-mttr/03-thesis.md
 ---
 
 ---
-src: ./pages/01/replit.md
+src: ./pages/01-mttr/04-replit.md
 ---
 
 ---
-src: ./pages/01/research.md
+src: ./pages/01-mttr/05-research.md
 ---
 
 ---
 # ── 02 · Что это такое ──
-src: ./pages/02/section.md
+src: ./pages/02-overview/00-section.md
 ---
 
 ---
-src: ./pages/02/mcp60.md
+src: ./pages/02-overview/01-mcp60.md
 ---
 
 ---
-src: ./pages/02/harness.md
+src: ./pages/02-overview/02-harness.md
 ---
 
 ---
-src: ./pages/02/arch.md
+src: ./pages/02-overview/03-arch.md
 ---
 
 ---
 # drill-down по клику на «База раннбуков» со схемы
-src: ./pages/02/context-layer.md
+src: ./pages/02-overview/04-context-layer.md
 ---
 
 ---
-src: ./pages/02/contract.md
+src: ./pages/02-overview/05-contract.md
 ---
 
 ---
 # ── 03 · Права ──
-src: ./pages/03/section.md
+src: ./pages/03-permissions/00-section.md
 ---
 
 ---
-src: ./pages/03/thesis.md
+src: ./pages/03-permissions/01-thesis.md
 ---
 
 ---
-src: ./pages/03/gates.md
+src: ./pages/03-permissions/02-gates.md
 ---
 
 ---
-src: ./pages/03/gate-1.md
+src: ./pages/03-permissions/03-gate-1.md
 ---
 
 ---
-src: ./pages/03/gate-2-3.md
+src: ./pages/03-permissions/04-gate-2-3.md
 ---
 
 ---
-src: ./pages/03/gate-4.md
+src: ./pages/03-permissions/05-gate-4.md
 ---
 
 ---
-src: ./pages/03/gate-5.md
+src: ./pages/03-permissions/06-gate-5.md
 ---
 
 ---
-src: ./pages/03/rbac.md
+src: ./pages/03-permissions/07-rbac.md
 ---
 
 ---
 # ── 04 · Разбор ──
-src: ./pages/04/section.md
+src: ./pages/04-case/00-section.md
 ---
 
 ---
-src: ./pages/04/proof.md
+src: ./pages/04-case/01-proof.md
 ---
 
 ---
-src: ./pages/04/chain.md
+src: ./pages/04-case/02-chain.md
 ---
 
 ---
-src: ./pages/04/human.md
+src: ./pages/04-case/03-human.md
 ---
 
 ---
 # ── 05 · Где ломается ──
-src: ./pages/05/section.md
+src: ./pages/05-failures/00-section.md
 ---
 
 ---
-src: ./pages/05/counter.md
+src: ./pages/05-failures/01-counterexample.md
 ---
 
 ---
-src: ./pages/05/fail-new.md
+src: ./pages/05-failures/02-fail-new.md
 ---
 
 ---
-src: ./pages/05/fail-correlation.md
+src: ./pages/05-failures/03-fail-correlation.md
 ---
 
 ---
-src: ./pages/05/fail-complacency.md
+src: ./pages/05-failures/04-fail-complacency.md
 ---
 
 ---
-src: ./pages/05/long-incidents.md
+src: ./pages/05-failures/05-long-incidents.md
 ---
 
 ---
 # ── 06 · Цифры и старт ──
-src: ./pages/06/section.md
+src: ./pages/06-start/00-section.md
 ---
 
 ---
-src: ./pages/06/metric.md
+src: ./pages/06-start/01-metric.md
 ---
 
 ---
 # опциональный: режется первым, если не укладываюсь по времени
-src: ./pages/06/audit-start.md
+src: ./pages/06-start/02-audit-start.md
 hide: false
 ---
 
 ---
-src: ./pages/06/anti-pitch.md
+src: ./pages/06-start/03-anti-pitch.md
 ---
 
 ---
-src: ./pages/06/pilot.md
+src: ./pages/06-start/04-pilot.md
 ---
 
 ---
 # ── 07 · финал ──
-src: ./pages/07/takeaways.md
+src: ./pages/07-outro/01-takeaways.md
 ---
 
 ---
-src: ./pages/07/materials.md
+src: ./pages/07-outro/02-materials.md
 ---
 
 ---
-src: ./pages/07/qr.md
+src: ./pages/07-outro/03-qr.md
 ---
 
 ---
-src: ./pages/07/questions.md
+src: ./pages/07-outro/04-questions.md
 ---
 
 ---
 # ── бэкапы: скрыты из показа и экспорта, чтобы вернуть — убрать hide ──
-src: ./pages/backup/stack.md
+src: ./pages/backup/01-stack.md
 hide: true
 ---
 
 ---
-src: ./pages/backup/cost.md
+src: ./pages/backup/02-cost.md
 hide: true
 ---
