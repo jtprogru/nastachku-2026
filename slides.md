@@ -1,7 +1,6 @@
 ---
 theme: bear
 layout: cover
-mascot: true
 title: 'SRE MCP'
 info: |
   ## SRE MCP: как пустить ИИ в инцидент и не отдать ему прод
@@ -19,6 +18,11 @@ transition: slide-left
 mdc: true
 ---
 
+<StachkaLogo class="absolute top-12 left-16" />
+
+<!-- маскот свой, а не из лейаута (`mascot: true` даёт 200px): место то же, но чуть меньше, чтобы не спорить с логотипом -->
+<Mascot :size="170" class="absolute bottom-10 right-12 pointer-events-none" />
+
 <!-- ширина ограничена, чтобы заголовок не заезжал на маскота в правом нижнем углу -->
 <div class="max-w-2xl">
 
@@ -26,11 +30,9 @@ mdc: true
 
 <p class="!text-4xl !leading-tight !mt-0" style="color: var(--fg)">Как пустить ИИ в инцидент<br>и не отдать ему прод</p>
 
-<p class="text-xl text-muted">Read-only по умолчанию, человек на кнопке —<br>и три места, где эта схема ломается</p>
-
 <br>
 
-#### [Мишка на сервере](https://t.me/jtprogru_channel) | [Михаил Савин](https://savinmi.ru) | Head of SRE, [h3llo cloud](https://h3llo.cloud) | 2026
+#### [Михаил Савин](https://savinmi.ru) · Head of SRE, [h3llo cloud](https://h3llo.cloud)
 
 </div>
 

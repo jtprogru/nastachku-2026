@@ -3,6 +3,8 @@ layout: questions
 routeAlias: questions
 ---
 
+<StachkaLogo class="absolute top-12 left-16" />
+
 # Вопросы
 
 Михаил Савин · Head of SRE, h3llo cloud
