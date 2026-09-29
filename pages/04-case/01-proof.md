@@ -10,33 +10,37 @@ layoutClass: gap-x-12
 
 ::left::
 
-<p class="text-lg mt-0">У клиента два managed-кластера Kubernetes, и к их worker-VM не подключаются диски: пять операций подряд. В нашем стеке первый подозреваемый — всегда сторадж.</p>
+<p class="text-xl mt-0">Два managed-кластера клиента, пять операций подряд. Первый подозреваемый — сторадж.</p>
 
-<p class="text-xl font-bold leading-snug text-link">Через MCP за минуты: все жертвы на одной ноде, отказ до подключения тома. Сторадж исключён.</p>
+<p class="text-2xl font-bold leading-snug text-link">Через MCP за минуты: сторадж исключён.</p>
 
 ::right::
 
-```text
-что собрано через MCP
+<div class="proof-code">
 
-жертвы        5 подов hp-volume, одна нода
-стадия        FailedCreatePodSandBox,
-              до attach тома не доходит
-ошибка        Failed to open current namespace:
-              Statfs "/proc/12/task/59/ns/net":
-              no such file or directory
-демон CNI     Running/Ready, рестартов нет
-сторадж       к зависшим подам не относится
+```text
+жертвы      5 подов, одна нода
+стадия      FailedCreatePodSandBox
+том         до attach не дошло
+демон CNI   Running/Ready
 ```
 
+</div>
+
+<style>
+.proof-code { --slidev-code-font-size: 1.05rem; --slidev-code-line-height: 2; }
+</style>
+
 <!--
-13:30–14:30 · 60 с. Через MCP за минуты: одна нода, отказ до тома. Сторадж исключён. Экран построчно не читать.
+9:45–10:30 · 45 с. Через MCP за минуты: одна нода, отказ до тома. Сторадж исключён. Экран построчно не читать.
 
 У клиента два managed-кластера Kubernetes, и к их worker-VM не подключаются диски, пять операций подряд. В нашем стеке первый подозреваемый всегда сторадж.
 
-Справа то, что было на руках через MCP за несколько минут. Пять подов hotplug-подключения томов, все на одной ноде. FailedCreatePodSandBox: до подключения тома дело не доходит. Демон CNI при этом Running и Ready, рестартов ноль.
+Справа то, что было на руках через MCP за несколько минут. Все пять подов на одной ноде, и до подключения тома дело не доходит. Демон CNI при этом Running и Ready.
 
-Все жертвы на одной ноде, отказ раньше тома. Сторадж исключён.
+Сторадж исключён.
 
 Переход: «Почему из этого следует именно такой диагноз».
+
+Справка. Жертвы — поды hotplug-подключения томов (hp-volume), рестартов у демона CNI ноль. Текст ошибки из событий: Failed to open current namespace: Statfs "/proc/12/task/59/ns/net": no such file or directory.
 -->
