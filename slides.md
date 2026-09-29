@@ -38,30 +38,33 @@ mdc: true
 </div>
 
 <!--
-0:00–0:15 · 15 с. Слот 30 минут: 25:25 доклад, остальное вопросы. Одна фраза: о чём доклад и почему у ИИ нет записи.
+0:00–0:10 · 10 с. План 18:20 при слоте 30 минут: на живых прогонах доклад идёт примерно в полтора раза дольше плана, отсюда запас. Название и сразу к крючку, представляться потом.
 
-Привет. Следующие двадцать пять минут про то, как мы пустили ИИ-ассистента в инцидент-менеджмент облачного провайдера. И почему у него до сих пор нет прав на запись.
+Привет. Доклад про то, как пустить ИИ в инцидент и не отдать ему прод. Начну с картинки, которую знает каждый дежурный.
 
 На записи без ведущего сначала представиться: «Меня зовут Михаил Савин, я Head of SRE в h3llo cloud».
-
-Переход: «Пару слов о себе: организаторы попросили».
 -->
 
 ---
 # ── 00 · вступление ──
-src: ./pages/00-intro/01-speaker.md
+src: ./pages/00-intro/01-hook.md
 ---
 
 ---
-src: ./pages/00-intro/02-disclaimer.md
+src: ./pages/00-intro/02-speaker.md
 ---
 
 ---
-src: ./pages/00-intro/03-promise.md
+src: ./pages/00-intro/03-disclaimer.md
+hide: true
 ---
 
 ---
-src: ./pages/00-intro/04-contour.md
+src: ./pages/00-intro/04-promise.md
+---
+
+---
+src: ./pages/00-intro/05-contour.md
 ---
 
 ---
@@ -70,23 +73,19 @@ src: ./pages/01-mttr/00-section.md
 ---
 
 ---
-src: ./pages/01-mttr/01-scene.md
+src: ./pages/01-mttr/01-mttr.md
 ---
 
 ---
-src: ./pages/01-mttr/02-mttr.md
+src: ./pages/01-mttr/02-thesis.md
 ---
 
 ---
-src: ./pages/01-mttr/03-thesis.md
+src: ./pages/01-mttr/03-replit.md
 ---
 
 ---
-src: ./pages/01-mttr/04-replit.md
----
-
----
-src: ./pages/01-mttr/05-research.md
+src: ./pages/01-mttr/04-research.md
 hide: true
 ---
 
