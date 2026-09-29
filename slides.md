@@ -190,6 +190,7 @@ src: ./pages/05-failures/04-fail-complacency.md
 
 ---
 src: ./pages/05-failures/05-long-incidents.md
+hide: true
 ---
 
 ---
