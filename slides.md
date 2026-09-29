@@ -173,23 +173,19 @@ src: ./pages/05-failures/00-section.md
 ---
 
 ---
-src: ./pages/05-failures/01-counterexample.md
+src: ./pages/05-failures/01-fail-tool.md
 ---
 
 ---
-src: ./pages/05-failures/02-fail-new.md
+src: ./pages/05-failures/02-fail-model.md
 ---
 
 ---
-src: ./pages/05-failures/03-fail-correlation.md
+src: ./pages/05-failures/03-fail-complacency.md
 ---
 
 ---
-src: ./pages/05-failures/04-fail-complacency.md
----
-
----
-src: ./pages/05-failures/05-long-incidents.md
+src: ./pages/05-failures/04-long-incidents.md
 hide: true
 ---
 
