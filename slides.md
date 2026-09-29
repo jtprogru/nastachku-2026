@@ -126,27 +126,28 @@ src: ./pages/03-permissions/01-thesis.md
 ---
 
 ---
-src: ./pages/03-permissions/02-gates.md
+src: ./pages/03-permissions/02-gate-1.md
 ---
 
 ---
-src: ./pages/03-permissions/03-gate-1.md
+src: ./pages/03-permissions/03-gate-2-3.md
 ---
 
 ---
-src: ./pages/03-permissions/04-gate-2-3.md
+src: ./pages/03-permissions/04-gate-4.md
 ---
 
 ---
-src: ./pages/03-permissions/05-gate-4.md
+src: ./pages/03-permissions/05-gate-5.md
 ---
 
 ---
-src: ./pages/03-permissions/06-gate-5.md
+src: ./pages/03-permissions/06-rbac.md
+hide: true
 ---
 
 ---
-src: ./pages/03-permissions/07-rbac.md
+src: ./pages/03-permissions/07-gates.md
 ---
 
 ---
