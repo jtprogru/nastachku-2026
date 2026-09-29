@@ -22,11 +22,11 @@ layoutClass: gap-x-12
 
 <Card kicker="не защита" tone="danger" class="text-xl">
 
-- **Промпт**: пишем, но это документация
+**Промпт** пишем, но считаем документацией.
+
+<p class="font-bold" style="color: var(--c-danger-text)">«Модель не должна писать» — значит, схемы нет.</p>
 
 </Card>
-
-<p class="text-2xl font-bold leading-snug text-link mt-8">«Модель не должна писать» — значит, схемы нет</p>
 
 <!--
 6:50–7:25 · 35 с. Три уровня защиты подряд. Промпт — не защита.
