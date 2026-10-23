@@ -17,12 +17,8 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+mascot: true
 ---
-
-<StachkaLogo class="absolute top-12 left-16" />
-
-<!-- маскот свой, а не из лейаута (`mascot: true` даёт 200px): место то же, но чуть меньше, чтобы не спорить с логотипом -->
-<Mascot :size="170" class="absolute bottom-10 right-12 pointer-events-none" />
 
 <!-- ширина ограничена, чтобы заголовок не заезжал на маскота в правом нижнем углу -->
 <div class="max-w-2xl">
@@ -38,7 +34,7 @@ mdc: true
 </div>
 
 <!--
-0:00–0:10 · 10 с. План 18:20 при слоте 30 минут: на живых прогонах доклад идёт примерно в полтора раза дольше плана, отсюда запас. Название и сразу к крючку, представляться потом.
+0:00–0:10 · 10 с. План 24:10, жёсткого слота нет. На живых прогонах доклад идёт примерно в полтора раза дольше плана, так что закладывать около 35 минут без вопросов. Название и сразу к крючку, представляться потом.
 
 Привет. Доклад про то, как пустить ИИ в инцидент и не отдать ему прод. Начну с картинки, которую знает каждый дежурный.
 
@@ -55,16 +51,11 @@ src: ./pages/00-intro/02-speaker.md
 ---
 
 ---
-src: ./pages/00-intro/03-disclaimer.md
-hide: true
+src: ./pages/00-intro/03-contour.md
 ---
 
 ---
 src: ./pages/00-intro/04-promise.md
----
-
----
-src: ./pages/00-intro/05-contour.md
 ---
 
 ---
@@ -81,12 +72,11 @@ src: ./pages/01-mttr/02-thesis.md
 ---
 
 ---
-src: ./pages/01-mttr/03-replit.md
+src: ./pages/01-mttr/03-research.md
 ---
 
 ---
-src: ./pages/01-mttr/04-research.md
-hide: true
+src: ./pages/01-mttr/04-replit.md
 ---
 
 ---
@@ -96,7 +86,6 @@ src: ./pages/02-overview/00-section.md
 
 ---
 src: ./pages/02-overview/01-mcp60.md
-hide: true
 ---
 
 ---
@@ -114,6 +103,10 @@ src: ./pages/02-overview/04-context-layer.md
 
 ---
 src: ./pages/02-overview/05-contract.md
+---
+
+---
+src: ./pages/02-overview/06-live-answer.md
 ---
 
 ---
@@ -142,12 +135,15 @@ src: ./pages/03-permissions/05-gate-5.md
 ---
 
 ---
-src: ./pages/03-permissions/06-rbac.md
-hide: true
+src: ./pages/03-permissions/06-cost-privacy.md
 ---
 
 ---
-src: ./pages/03-permissions/07-gates.md
+src: ./pages/03-permissions/07-rbac.md
+---
+
+---
+src: ./pages/03-permissions/08-gates.md
 ---
 
 ---
@@ -186,7 +182,6 @@ src: ./pages/05-failures/03-fail-complacency.md
 
 ---
 src: ./pages/05-failures/04-long-incidents.md
-hide: true
 ---
 
 ---
@@ -200,7 +195,6 @@ src: ./pages/06-start/01-metric.md
 
 ---
 src: ./pages/06-start/02-audit-start.md
-hide: true
 ---
 
 ---
@@ -226,15 +220,4 @@ src: ./pages/07-outro/03-qr.md
 
 ---
 src: ./pages/07-outro/04-questions.md
----
-
----
-# ── бэкапы: скрыты из показа и экспорта, чтобы вернуть — убрать hide ──
-src: ./pages/backup/01-stack.md
-hide: true
----
-
----
-src: ./pages/backup/02-cost.md
-hide: true
 ---
